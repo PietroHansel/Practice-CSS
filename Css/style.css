@@ -1,0 +1,62 @@
+
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+#h1 {
+  color: blue;
+  font-family: Arial, sans-serif;
+}
+
+#p1 {
+  color: gray;
+  font-size: 16px;
+}
+
+#p2 {
+  color: rgb(0, 255, 213);
+  font-size: 16px;
+}
+
+.p3, .b1 {
+  color: rgb(255, 0, 0);
+  font-size: 16px;
+}
+
+.h2 {
+  background: rgb(255, 0, 255);
+  font-size: 64px;
+  font-weight: 100;
+  font-family: 'Jacquard 12', serif;
+  font-style: italic;
+  line-height: 120px;
+  letter-spacing: 20px;
+  word-spacing: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5); /* Sombra do texto: 10px para a direita, 10px para baixo, 5px de desfoque, cor preta com opacidade de 0.5 */
+}
+
+.p4 {
+  background: #000FFF;
+  font-size: 16px;
+}
+
+.avo {
+  background: #000FFF;
+  width: 10vw; /*se adaptará a altura da tela, independente do dispositivo*/
+  height: 10vh;
+}
+
+.pai {
+  background: #00a2ff;
+  width: 50%;
+  height: 50%;
+}
+
+.filho {
+  background: #ff00ff;
+  width: 50%;
+  height: 50%;
+}
