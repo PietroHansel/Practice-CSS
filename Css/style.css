@@ -1,4 +1,3 @@
-
 /* style.css */
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
 
@@ -19,7 +18,8 @@
   font-size: 16px;
 }
 
-.p3, .b1 {
+.p3,
+.b1 {
   color: rgb(255, 0, 0);
   font-size: 16px;
 }
@@ -35,7 +35,8 @@
   word-spacing: 20px;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5); /* Sombra do texto: 10px para a direita, 10px para baixo, 5px de desfoque, cor preta com opacidade de 0.5 */
+  text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  /* Sombra do texto: 10px para a direita, 10px para baixo, 5px de desfoque, cor preta com opacidade de 0.5 */
 }
 
 .p4 {
@@ -45,7 +46,8 @@
 
 .avo {
   background: #000FFF;
-  width: 10vw; /*se adaptará a altura da tela, independente do dispositivo*/
+  width: 10vw;
+  /*se adaptará a altura da tela, independente do dispositivo*/
   height: 10vh;
 }
 
