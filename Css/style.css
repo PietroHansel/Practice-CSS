@@ -1,7 +1,11 @@
 /* style.css */
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 #h1 {
   color: blue;
@@ -62,3 +66,25 @@
   width: 50%;
   height: 50%;
 }
+
+.teste {
+  width: 100px;
+  height: 100px;
+  background: #00ff00;
+  padding: 80px;
+  margin: 80px;
+}
+.teste2 {
+  width: 100px;
+  height: 100px;
+  background: #146814;
+  margin: 80px 80px 80px 80px; /* top, right, bottom, left */
+}
+
+.teste3 {
+  width: 100px;
+  height: 100px;
+  background: #d8922a;
+  border: #000FFF 10px solid;
+}
+

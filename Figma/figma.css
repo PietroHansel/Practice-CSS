@@ -1,0 +1,67 @@
+/* Reset básico */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Importação de fontes */
+@font-face {
+  font-family: "MGS2";
+  src: url("../Fonts/MGS2.ttf") format("truetype");
+}
+
+
+
+/* Navegação */
+.botoes {
+  display: flex;
+  gap: 20px;
+  margin: 44px 0 80px 76px;
+  font-family: "MGS2";
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Título principal */
+.titulo {
+  font-family: "MGS2";
+  font-size: 48px;
+  margin: 44px 0 80px 0;
+  text-align: center;
+}
+
+/* Número 3 separado */
+.numero {
+  color: #2e7d32;
+  font-size: 100px;
+  font-family: "MGS2";
+}
+
+/* Imagem */
+.image {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Subtítulo */
+.subtitulo {
+  font-family: "MGS2";
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Descrição */
+.descricao {
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 100px auto;
+}
