@@ -1,0 +1,65 @@
+
+.pai {
+    background-color: #f01a1a;
+    height: 100px;
+    width: 100px;
+}
+
+.filho {
+    background-color: #1a73e8;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.primo {
+    background-color: #34a853;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 50px;
+}
+
+input::placeholder {
+    color: red;
+}
+
+p::first-letter {
+    color: blue;
+    font-size: 200%;
+}
+/* O pseudo-elemento ::after é usado para inserir conteúdo após o elemento selecionado. Ele é frequentemente usado para adicionar elementos decorativos ou texto adicional sem a necessidade de modificar o HTML. */
+h1::after {
+    content: " - Título";
+    color: green;
+}
+
+/* pseudo-classes são usadas para definir um estado especial de um elemento. Elas são frequentemente usadas para estilizar elementos com base em sua interação com o usuário, como quando um link é clicado ou quando um elemento é focado. */
+a:active {
+    color: orange;
+}
+
+a:visited {
+    color: purple;
+}
+
+.Youtube:hover {
+    color: red;
+}
+
+p:hover {
+    color: pink;
+}   
+
+input:checked {
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    width: 20px;
+}
+
+input:focus {
+    border: 1px solid red;
+    outline: none;
+}
